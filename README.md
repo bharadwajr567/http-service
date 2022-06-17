@@ -9,3 +9,11 @@ Please prepare a skeleton web application, using any web server framework you li
 - You could be asked something related to modeling data or storing data. 
 - You could be asked questions related to polling, long polling, or web sockets.
 - Do your best to implement the hints you are given, your interviewer is there to help you. 
+
+# Usage
+## Build
+`docker build . -t bharadwaj`
+## Running application
+`docker run -p 8080:8080 bharadwaj`
+## Running tests
+`docker run bharadwaj python3 -m pytest -vv`
